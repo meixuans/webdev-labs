@@ -11,14 +11,83 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
-
+.bb {
+	margin-left: 16px;
+}
+.box1 {
+	width: 303px;
+	height: 550px;
+	float:left;
+	display: inline-block;
+	border: 2px solid #D3D3D3;
+	margin: 10px;
+}
+.box2 {
+	width: 300px;
+	height: 300px;
+}
+.box3 {
+	display: block;
+	margin-left: 16px;
+	margin-right: 18px;
+	float:left;
+	/*font-weight: bold;*/
+	font-size: 16px;
+}
+.b1 {
+	margin-left: 16px;
+}
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
-
+.bb {
+	margin-left: 13px;
+}
+.box1 {
+	width: 303px;
+	height: 500px;
+}
+.box2 {
+	width: 300px;
+	height: 300px;
+}
+.box3 {
+	display: block;
+	margin-left: 13px;
+	margin-right: 12px;
+	float:left;
+	font-size: 11px;
+}
+.b1 {
+	margin-left: 13px;
+}
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
-
-    
+.bb {
+	margin-left: 16px;
+}
+.box1 {
+	width: 353px;
+	height: 570px;
+	float:left;
+	display: inline-block;
+	border: 2px solid #D3D3D3;
+	margin: 10px;
+}
+.box2 {
+	width: 350px;
+	height: 350px;
+}
+.box3 {
+	display: block;
+	margin-left: 16px;
+	margin-right: 21px;
+	float:left;
+	/*font-weight: bold;*/
+	font-size: 15px;
+}
+.b1 {
+	margin-left: 16px;
+}
 }

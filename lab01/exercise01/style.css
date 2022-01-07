@@ -9,3 +9,28 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+.bb {
+	margin-left: 16px;
+}
+.box1 {
+	width: 310px;
+	height: 550px;
+	float:left;
+	display: inline-block;
+	border: 2px solid #D3D3D3;
+	margin: 10px;
+}
+.box2 {
+	width: 308px;
+	height: 308px;
+}
+.box3 {
+	display: block;
+	margin-left: 16px;
+	margin-right: 13px;
+	float:left;
+	font-size: 15px;
+}
+.b1 {
+	margin-left: 16px;
+}
